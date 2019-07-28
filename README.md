@@ -73,7 +73,7 @@ Following libraries were used during the development of balloon shooting game:
 ## Application Structure
 Threejs is a framework that makes our life very easy since we don't have to choose the versions of different dependencies. I have tried to follow the same ideology while creating the project structure, at first it might seem like overwhelming, but do believe me once you start writing your pieces the structure will help you immensely by saving your time and thinking about questions which are already answered. The structure look as follows :
 
-![image](https://user-images.githubusercontent.com/51994335/62003085-ed6e8580-b0c5-11e9-9975-b261f1084537.png)
+![ht](https://user-images.githubusercontent.com/51994335/62006185-0ee56680-b0f2-11e9-9483-c2d8425b0384.png)
 
 We have worked on different modules, like creation of UI, creation of different objects, creation of animations, worked on calculations part and some extra things like frequency of gun hitting the balloon, increment of levels and so on.<br>
 *	For making balloons we have used sphere geometry and added texture and material to it. We have used MTLLoader.js for loading an .mtl resource (material template library format).  MTL file format is a companion file format to.OBJ that describes surface shading (material) properties of object within one or more .OBJ files.
