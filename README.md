@@ -95,6 +95,8 @@ UI design basically consists of a start button, on click of which the game will 
 
 ![image](https://user-images.githubusercontent.com/51994335/62003478-6ffa4380-b0cc-11e9-85b0-c1b5d4fc4eaa.png)<br><br>
 
+## Flow Diagram
+![Project-structure](https://user-images.githubusercontent.com/51994335/62011673-4a068a80-b130-11e9-8c98-c47af1299635.png)
 
 ## Running the application
 •	The most basic requirement for running a threejs application is a Modern Web Browser - Any modern browser can run three.js, where ‘modern’ means anything released in the last 5 years or so. 
