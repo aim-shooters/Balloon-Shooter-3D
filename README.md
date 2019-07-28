@@ -68,6 +68,7 @@ Following libraries were used during the development of balloon shooting game:
 *	**CSS**- Describes presentation of web pages.
 *	**Javascript**- High level programming language that all modern web browsers support.
 *	**000webhost**- Generates a URL for hosting website.
+* **Facebook SDK**-The Facebook SDK is what allows mobile app developers to integrate Facebook within a mobile app. SDK stands for software development kit, and it allows for a website or app to integrate with Facebook seamlessly.
 
 ## Application Structure
 Threejs is a framework that makes our life very easy since we don't have to choose the versions of different dependencies. I have tried to follow the same ideology while creating the project structure, at first it might seem like overwhelming, but do believe me once you start writing your pieces the structure will help you immensely by saving your time and thinking about questions which are already answered. The structure look as follows :
