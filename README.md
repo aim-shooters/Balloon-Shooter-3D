@@ -126,7 +126,7 @@ Different types of web hosts are:
 *	Dedicated Hosting
 *	Cloud Hosting<br>
 You can type the following URL in the browser to run the game:
-https://balloonshooter.000webhostapp.com
+https://balloonshooter3d.000webhostapp.com/
 
 ## Contributors
 *	Aakash Bansod
