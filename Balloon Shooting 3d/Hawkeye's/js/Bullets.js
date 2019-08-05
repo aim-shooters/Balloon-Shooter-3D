@@ -58,8 +58,8 @@ class Bullets {
         this.bullets[i].position.set(position.x-target.x, position.y+5, position.z-target.z);
 
         //Detect more collisions per second
-        this.bullets[i].setCcdMotionThreshold(0.05);
-        this.bullets[i].setCcdSweptSphereRadius(this.objWidth/10);
+        this.bullets[i].setCcdMotionThreshold(1);
+        this.bullets[i].setCcdSweptSphereRadius(this.objWidth/4);
 
         this.bullets[i].__dirtyPosition = true;
         this.launched[i] = true;
@@ -74,7 +74,7 @@ class Bullets {
             });
         }
         else if (weapon == 1) {
-            fire_power = 500000;
+            fire_power = 350000;
             sound = new Howl({
               src: ['sounds/escopeta.mp3'], volume: .5
             });
