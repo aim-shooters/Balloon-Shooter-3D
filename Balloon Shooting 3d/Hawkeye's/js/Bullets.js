@@ -52,7 +52,7 @@ class Bullets {
         this.bullets[i].position.z = 0;
         this.bullets[i].__dirtyPosition = true;
     }
-
+//Bullet fire and collision detect function
     disappear(i, position, target, weapon) {
         this.target[i].set(target.x, target.y, target.z);
         this.bullets[i].position.set(position.x-target.x, position.y+5, position.z-target.z);
