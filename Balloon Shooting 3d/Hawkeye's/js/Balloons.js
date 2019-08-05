@@ -151,7 +151,7 @@ class Balloons {
         scene.updateScore(10);
         
         that.countDead++;
-        if(that.countDead == 4){
+        if(that.countDead == 6){
           scene.level++;
           scene.newLevel();
         }
@@ -183,13 +183,6 @@ class Balloons {
       this.force*=0.1;
       this.init = false;
     }
-
-    //Force next level in case it didn't detect a collision
-    /*if (this.balloons[0].position.z != -150 && this.balloons[1].position.z != -250 && 
-      this.balloons[2].position.z != -350 && this.balloons[3].position.z != -450) {
-      scene.level++;
-      scene.newLevel();
-    }*/
   }
 
 }
