@@ -305,8 +305,8 @@ class TheScene extends Physijs.Scene {
   newLevel() {
     this.shooter.setInitialPosition();
 
-    if (this.score - this.lastScore != 40)
-      this.score = this.lastScore + 40;
+    if (this.score - this.lastScore != 60)
+      this.score = this.lastScore + 60;
 
     this.updateLevel();
 
