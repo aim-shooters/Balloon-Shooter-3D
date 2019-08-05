@@ -18,11 +18,11 @@ class Map {
     this.map.push(start1);
     ++this.map_size;
 
-    var enemies2 = new Physijs.BoxMesh (new THREE.BoxGeometry (210, 4, 400, 1, 1, 1), mat, 0);
-    enemies2.applyMatrix (new THREE.Matrix4().makeTranslation (0, 0, -300));
-    enemies2.receiveShadow = true;
-    enemies2.autoUpdateMatrix = false;
-    this.map.push(enemies2);
+    var balloons2 = new Physijs.BoxMesh (new THREE.BoxGeometry (500, 4, 500, 1, 1, 1), mat, 0);
+    balloons2.applyMatrix (new THREE.Matrix4().makeTranslation (0, 0, -300));
+    balloons2.receiveShadow = true;
+    balloons2.autoUpdateMatrix = false;
+    this.map.push(balloons2);
     ++this.map_size;
 
     var bullets3 = new Physijs.BoxMesh (new THREE.BoxGeometry (50, 0.0, 50, 1, 1, 1), mat, 0);
